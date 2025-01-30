@@ -19,6 +19,16 @@
         "path": "/etc/ucore-autorebase",
         "mode": 492
       }
+    ],
+    "files": [
+      {
+        "path": "/etc/hostname",
+        "contents": {
+          "compression": "",
+          "source": "data:,kube-01"
+        },
+        "mode": 420
+      }
     ]
   },
   "systemd": {
